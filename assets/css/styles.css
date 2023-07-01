@@ -1,0 +1,29 @@
+:root {
+    --bg-primary-color: #2D4356;
+    --bg-secondary-color: #435B66;
+    --details-primary-color: #A76F6F;
+    --details-secondary-color: #EAB2A0;
+    --text-color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container {
+    background-image: url(/assets/img/sunset-bg-small.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
