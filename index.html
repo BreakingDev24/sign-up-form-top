@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">     
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Sign Up</title>
 </head>
@@ -21,32 +24,38 @@
             </section>
 
             <section class="form-section">
-                <form action="" class="form">
+                <form action="#" id="sign-up-form" class="sign-up-form">
                     <div class="input-container">
                         <label for="firt-name">First Name</label>
-                        <input type="text" name="first-name" id="firt-name">
+                        <input type="text" name="first-name" id="firt-name" required>
                     </div>
                     <div class="input-container">
                         <label for="last-name">Last Name</label>
-                        <input type="text" name="last-name" id="last-name">
+                        <input type="text" name="last-name" id="last-name" required>
                     </div>
                     <div class="input-container">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="input-container">
                         <label for="phone-number">Phone Number</label>
-                        <input type="text" name="phone-number" id="phone-number">
+                        <input type="text" name="phone-number" id="phone-number" required>
                     </div>
                     <div class="input-container">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </div>
                     <div class="input-container">
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <input type="password" name="confirm-password" id="confirm-password" required>
                     </div>
                 </form>
+            </section>
+            <section class="submit-section">
+                <div class="button-container">
+                    <button type="submit" form="sign-up-form">Create an account</button>
+                    <p>Already have an account <a href="#">Log in</a></p>
+                </div>
             </section>
 
         </main>
