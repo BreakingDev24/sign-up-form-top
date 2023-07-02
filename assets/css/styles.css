@@ -23,7 +23,42 @@ html {
 
 .img-container {
     background-image: url(/assets/img/sunset-bg-small.jpg);
-    background-size: cover;
-    height: 200px;
+    background-position: center;
+    height: 250px;
     width: 100%;
+}
+
+.description {
+    background-color: var(--bg-secondary-color);
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.form{
+    display: flex;
+    /* flex-direction: row ; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--details-primary-color);
+    background-color: var(--bg-primary-color);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    gap: 5px;
+}
+
+.input-container > input {
+    height: 2.5rem;
+    background-color: var(--bg-primary-color);
+    border: 1px solid var(--details-secondary-color);
 }
