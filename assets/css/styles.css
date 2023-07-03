@@ -101,7 +101,23 @@ html {
     border-radius: 5px;
     background-color: var(--details-primary-color);
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;}
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 0.25s;
+}
+
+    .submit-btn:hover,
+    .submit-btn:focus {
+      box-shadow: 0 0.5em 0.5em -0.4em var(--details-secondary-color);
+      transform: translateY(-0.25em);
+    }
+
+    .submit-btn:active {
+        box-shadow: 0 0 0 0 white;
+        background-color: #915f5f;
+        opacity: 1;
+        transition: 0s;
+      }
+    
 
 .button-container > p {
     font-size: 1.6rem;
