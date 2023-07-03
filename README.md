@@ -9,6 +9,6 @@ project made for The Odin Project
 
 ### Buil with
 
-*HTMl
-*CSS
+* HTML
+* CSS
 
