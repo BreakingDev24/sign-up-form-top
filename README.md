@@ -7,7 +7,7 @@ project made for The Odin Project
 ## Link
 [Live Demo](https://breakingdev24.github.io/sign-up-form-top/)
 
-### Buil with
+### Built with
 
 * HTML
 * CSS
